@@ -1,0 +1,84 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.fruit-container {
+    background-color: #ef9caf;
+    padding: 20px;
+    margin: 30px;
+}
+
+.fruit-list {
+    padding-left: 22px;
+    margin: 0;
+}
+
+.fruit-list li {
+    background-color: #c85e78;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.fruit-list span {
+    background-color: #982b49;
+    padding: 10px 20px;
+}
+
+.todo-container {
+    background-color: #f4f4f4;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.todo-container h2 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    padding: 10px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #a8d0df;
+}
+
+.todo-list li:nth-child(even) {
+    background-color: #b8e0e8;
+}
+
+.todo-list li.completed {
+    background-color: #dddddd;
+}
+
+.checkbox {
+    font-size: 17px;
+}
+
+.task-text {
+    font-size: 12px;
+}
+
+.completed .task-text {
+    text-decoration: line-through;
+}
+
+.delete {
+    color: darkred;
+    font-weight: bold;
+    cursor: pointer;
+}
